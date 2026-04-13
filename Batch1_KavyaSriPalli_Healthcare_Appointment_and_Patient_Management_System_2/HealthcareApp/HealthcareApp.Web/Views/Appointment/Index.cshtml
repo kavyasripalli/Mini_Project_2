@@ -1,0 +1,364 @@
+﻿@model IEnumerable<HealthcareApp.BLL.DTOs.AppointmentDTO>
+
+@{
+    ViewData["Title"] = "Appointments";
+}
+
+<div class="container mt-4">
+
+    <!-- HEADER -->
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="fw-bold">Appointments</h2>
+
+        <div>
+            <button class="btn btn-outline-secondary me-2" onclick="toggleView('table')">
+                <i class="bi bi-table"></i>
+            </button>
+
+            <button class="btn btn-outline-secondary me-2" onclick="toggleView('card')">
+                <i class="bi bi-grid"></i>
+            </button>
+
+            <a asp-action="Create" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i> Add
+            </a>
+        </div>
+    </div>
+
+    <!-- FILTERS -->
+    <form method="get">
+        <div class="card shadow-sm p-3 mb-4">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <input type="text" name="search" class="form-control"
+                           placeholder="Search patient or doctor..."
+                           value="@Context.Request.Query["search"]" />
+                </div>
+
+                <div class="col-md-3">
+                        <input type="date" name="date" class="form-control" />
+                </div>
+
+                <div class="col-md-3">
+                    <select name="status" class="form-control">
+                        <option value="">All Status</option>
+                        <option>Booked</option>
+                        <option>Completed</option>
+                        <option>Cancelled</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary w-100">
+                        Apply
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </form>
+
+    <!-- TABLE VIEW -->
+    <div id="tableView" class="card shadow-sm p-3">
+
+        <div class="table-responsive">
+            <table class="table table-hover align-middle">
+
+                <thead class="table-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>Patient</th>
+                        <th>Doctor</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Status</th>
+                        <th class="text-center">Actions</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tableBody">
+
+                    @if (Model != null && Model.Any())
+                    {
+                        foreach (var a in Model)
+                        {
+                            <tr class="appt-row">
+                                <td>@a.AppointmentId</td>
+                                <td>@a.PatientName</td>
+                                <td>@a.DoctorName</td>
+                                <td>@a.Date.ToString("dd-MM-yyyy")</td>
+                                <td>@a.TimeSlot.ToString(@"hh\:mm")</td>
+
+                                <td>
+                                    @if (a.Status.ToString() == "Booked")
+                                    {
+                                        <span class="badge bg-primary">Booked</span>
+                                    }
+                                    else if (a.Status.ToString() == "Completed")
+                                    {
+                                        <span class="badge bg-success">Completed</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-danger">Cancelled</span>
+                                    }
+                                </td>
+
+                                <td class="text-center">
+
+                                    @if (a.Status.ToString() == "Completed")
+                                    {
+                                        <!-- LOCKED -->
+                                        <button class="btn btn-sm btn-secondary me-2"
+                                                disabled title="Completed appointments cannot be edited">
+                                            <i class="bi bi-lock"></i>
+                                        </button>
+
+                                        <button class="btn btn-sm btn-secondary"
+                                                disabled title="Completed appointments cannot be deleted">
+                                            <i class="bi bi-lock"></i>
+                                        </button>
+                                    }
+                                    else
+                                    {
+                                        <!-- NORMAL -->
+                                        <a href="/Appointment/Edit/@a.AppointmentId"
+                                               class="btn btn-sm btn-outline-warning me-2">
+                                            <i class="bi bi-pencil"></i>
+                                        </a>
+
+                                        <a href="/Appointment/Delete/@a.AppointmentId"
+                                               class="btn btn-sm btn-outline-danger"
+                                               onclick="return confirm('Delete?')">
+                                            <i class="bi bi-trash"></i>
+                                        </a>
+                                    }
+
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="7" class="text-center text-muted">No appointments found</td>
+                        </tr>
+                    }
+
+                </tbody>
+
+            </table>
+        </div>
+
+    </div>
+
+    <!-- CARD VIEW -->
+    <div id="cardView" class="row mt-3" style="display:none;">
+
+        @if (ViewBag.AllAppointments != null && ViewBag.AllAppointments.Count > 0)
+        {
+            foreach (var a in ViewBag.AllAppointments)
+            {
+                <div class="col-md-4 mb-3 appt-card">
+
+                    <div class="card shadow-sm p-3 h-100">
+
+                        <h5 class="fw-bold">@a.PatientName</h5>
+                        <p class="text-muted mb-1">@a.DoctorName</p>
+
+                        <p class="mb-1">
+                            @a.Date.ToString("dd MMM yyyy")
+                        </p>
+
+                        <p>
+                            @a.TimeSlot.ToString(@"hh\:mm")
+                        </p>
+
+                        <div class="mb-2">
+                            @if (a.Status.ToString() == "Booked")
+                            {
+                                <span class="badge bg-primary">Booked</span>
+                            }
+                            else if (a.Status.ToString() == "Completed")
+                            {
+                                <span class="badge bg-success">Completed</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">Cancelled</span>
+                            }
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+
+                            @if (a.Status.ToString() == "Completed")
+                            {
+                                <button class="btn btn-secondary btn-sm"
+                                        disabled title="Locked">
+                                    <i class="bi bi-lock"></i>
+                                </button>
+
+                                <button class="btn btn-secondary btn-sm"
+                                        disabled title="Locked">
+                                    <i class="bi bi-lock"></i>
+                                </button>
+                            }
+                            else
+                            {
+                                <a href="/Appointment/Edit/@a.AppointmentId"
+                                       class="btn btn-outline-warning btn-sm">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+
+                                <a href="/Appointment/Delete/@a.AppointmentId"
+                                       class="btn btn-outline-danger btn-sm"
+                                       onclick="return confirm('Delete?')">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            }
+
+                        </div>
+
+                    </div>
+
+                </div>
+            }
+        }
+        else
+        {
+            <div class="text-center text-muted">No appointments found</div>
+        }
+
+    </div>
+
+</div>
+
+@if (ViewBag.TotalPages > 1 && string.IsNullOrEmpty(Context.Request.Query["status"]) && string.IsNullOrEmpty(Context.Request.Query["date"]))
+{
+     <div id="pagination" class="d-flex justify-content-center align-items-center mt-3">
+
+            <!-- PREVIOUS BUTTON -->
+            <a href="?page=@(ViewBag.CurrentPage - 1)&status=@Context.Request.Query["status"]&date=@Context.Request.Query["date"]&search=@Context.Request.Query["search"]"
+                   class="btn btn-outline-primary mx-2 @(ViewBag.CurrentPage == 1 ? "disabled" : "")">
+                Previous
+            </a>
+
+            <!-- PAGE INFO -->
+            <span class="mx-2 fw-bold">
+                Page @ViewBag.CurrentPage of @ViewBag.TotalPages
+            </span>
+
+            <!-- NEXT BUTTON -->
+            <a href="?page=@(ViewBag.CurrentPage + 1)&status=@Context.Request.Query["status"]&date=@Context.Request.Query["date"]&search=@Context.Request.Query["search"]"
+                   class="btn btn-outline-primary mx-2 @(ViewBag.CurrentPage == ViewBag.TotalPages ? "disabled" : "")">
+                Next
+            </a>
+
+        </div>
+ }
+
+<script>
+    // EVENTS
+    document.getElementById("searchBox").addEventListener("keyup", filter);
+    document.getElementById("dateFilter").addEventListener("change", filter);
+    document.getElementById("statusFilter").addEventListener("change", filter);
+
+    // FILTER FUNCTION
+    function filter() {
+
+        let search = document.getElementById("searchBox").value.toLowerCase();
+        let date = document.getElementById("dateFilter").value;
+        let status = document.getElementById("statusFilter").value;
+
+        // ===== TABLE FILTER =====
+        document.querySelectorAll(".appt-row").forEach(row => {
+
+            let patient = row.children[1].innerText.toLowerCase();
+            let doctor = row.children[2].innerText.toLowerCase();
+            let rowDate = row.children[3].innerText;
+
+            let parts = rowDate.split("-");
+            let formatted = `${parts[2]}-${parts[1]}-${parts[0]}`;
+
+            let rowStatus = row.children[5].innerText.trim();
+
+            let match =
+                (patient.includes(search) || doctor.includes(search)) &&
+                (!date || formatted === date) &&
+                (!status || rowStatus === status);
+
+            row.style.display = match ? "" : "none";
+        });
+
+        // ===== CARD FILTER =====
+        document.querySelectorAll(".appt-card").forEach(card => {
+
+            let text = card.innerText.toLowerCase();
+
+            let matchSearch = text.includes(search);
+            let matchStatus = !status || text.includes(status.toLowerCase());
+
+            let matchDate = !date || text.includes(date.split("-").reverse().join(" "));
+
+            let match = matchSearch && matchStatus && matchDate;
+
+            card.style.display = match ? "" : "none";
+        });
+
+        checkEmpty();
+    }
+
+    // CLEAR FILTERS
+    function clearFilters() {
+
+        document.getElementById("searchBox").value = "";
+        document.getElementById("dateFilter").value = "";
+        document.getElementById("statusFilter").value = "";
+
+        document.querySelectorAll(".appt-row").forEach(r => r.style.display = "");
+        document.querySelectorAll(".appt-card").forEach(c => c.style.display = "");
+
+        let existing = document.getElementById("noDataRow");
+        if (existing) existing.remove();
+    }
+
+    // EMPTY CHECK
+    function checkEmpty() {
+
+        let visibleRows = [...document.querySelectorAll(".appt-row")]
+            .filter(r => r.style.display !== "none");
+
+        let tbody = document.getElementById("tableBody");
+        let existing = document.getElementById("noDataRow");
+
+        if (visibleRows.length === 0) {
+            if (!existing) {
+                let tr = document.createElement("tr");
+                tr.id = "noDataRow";
+                tr.innerHTML = `<td colspan="7" class="text-center text-muted">No matching results</td>`;
+                tbody.appendChild(tr);
+            }
+        } else {
+            if (existing) existing.remove();
+        }
+    }
+
+    // VIEW TOGGLE
+    function toggleView(type) {
+        localStorage.setItem("viewType", type); // save
+
+        document.getElementById("tableView").style.display = type === "table" ? "block" : "none";
+        document.getElementById("cardView").style.display = type === "card" ? "flex" : "none";
+
+        document.getElementById("pagination").style.display = type === "table" ? "flex" : "none";
+    }
+
+    // INITIAL LOAD
+    window.onload = function () {
+
+        let savedView = localStorage.getItem("viewType") || "table";
+
+        toggleView(savedView);
+        filter();
+    }
+</script>

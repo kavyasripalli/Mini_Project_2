@@ -1,0 +1,94 @@
+﻿@model IEnumerable<HealthcareApp.BLL.DTOs.PatientDTO>
+
+@{
+    ViewData["Title"] = "Patients";
+}
+
+<div class="container mt-4">
+
+    <!-- HEADER CARD -->
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="fw-bold">Patient Management</h2>
+        <a href="/Patient/Create" class="btn btn-primary">
+            <i class="bi bi-plus-circle"></i> Add Patient
+        </a>
+    </div>
+
+    <!-- SEARCH CARD -->
+    <div class="card shadow-sm p-3 mb-4">
+        <form method="get" action="/Patient/Index" class="d-flex gap-2">
+            <input type="text" name="searchTerm"
+                   class="form-control"
+                   placeholder="Search by name or phone..."
+                   value="@Context.Request.Query["searchTerm"]" />
+
+            <button class="btn btn-primary">
+                <i class="bi bi-search"></i>
+            </button>
+        </form>
+    </div>
+
+    <!-- TABLE CARD -->
+    <div class="card shadow-sm p-3">
+
+        <div class="table-responsive">
+            <table class="table table-hover align-middle">
+
+                <thead class="table-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Gender</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th class="text-center">Actions</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        foreach (var p in Model)
+                        {
+                            <tr>
+                                <td>@p.PatientId</td>
+                                <td class="fw-semibold">@p.Name</td>
+                                <td>@p.Age</td>
+                                <td>@p.Gender</td>
+                                <td>@p.PhoneNumber</td>
+                                <td>@p.Email</td>
+
+                                <td class="text-center">
+
+                                    <a href="/Patient/Edit/@p.PatientId"
+                                           class="btn btn-sm btn-outline-warning me-2">
+                                        <i class="bi bi-pencil-square"></i>
+                                    </a>
+
+                                    <a href="/Patient/Delete/@p.PatientId"
+                                           class="btn btn-sm btn-outline-danger"
+                                           onclick="return confirm('Delete this patient?')">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="7" class="text-center text-muted">
+                                No patients found
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+        </div>
+
+    </div>
+
+</div>

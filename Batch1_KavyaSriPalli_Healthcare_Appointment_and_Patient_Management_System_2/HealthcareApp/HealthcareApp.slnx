@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="HealthcareApp.BLL/HealthcareApp.BLL.csproj" />
+  <Project Path="HealthcareApp.DAL/HealthcareApp.DAL.csproj" />
+  <Project Path="HealthcareApp.Entities/HealthcareApp.Entities.csproj" />
+  <Project Path="HealthcareApp.Web/HealthcareApp.Web.csproj" />
+</Solution>
