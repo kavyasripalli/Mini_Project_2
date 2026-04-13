@@ -1,0 +1,682 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|solutionrelative:healthcareapp.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|solutionrelative:healthcareapp.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3643CD-1647-70C5-C8F2-DAB6F0D8EDD6}|HealthcareApp.DAL\\HealthcareApp.DAL.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.dal\\migrations\\20260412193047_intialdbcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B3643CD-1647-70C5-C8F2-DAB6F0D8EDD6}|HealthcareApp.DAL\\HealthcareApp.DAL.csproj|solutionrelative:healthcareapp.dal\\migrations\\20260412193047_intialdbcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UpGrad\\Batch1_.Net Angular_KavyaSriPalli_Healthcare_Appointment_and_Patient_Management_System_2\\HealthcareApp\\HealthcareApp.DAL\\Migrations\\20260412192819_Add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.web\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|solutionrelative:healthcareapp.web\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.web\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|solutionrelative:healthcareapp.web\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|solutionrelative:healthcareapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.web\\views\\appointment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|solutionrelative:healthcareapp.web\\views\\appointment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.web\\views\\appointment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|solutionrelative:healthcareapp.web\\views\\appointment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|solutionrelative:healthcareapp.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|solutionrelative:healthcareapp.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|solutionrelative:healthcareapp.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|solutionrelative:healthcareapp.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.web\\views\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|solutionrelative:healthcareapp.web\\views\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{415AA0D3-0B77-5B79-2EF8-98CCFCD97744}|HealthcareApp.BLL\\HealthcareApp.BLL.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.bll\\services\\implementation\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{415AA0D3-0B77-5B79-2EF8-98CCFCD97744}|HealthcareApp.BLL\\HealthcareApp.BLL.csproj|solutionrelative:healthcareapp.bll\\services\\implementation\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.web\\views\\appointment\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|solutionrelative:healthcareapp.web\\views\\appointment\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.web\\views\\doctor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|solutionrelative:healthcareapp.web\\views\\doctor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.web\\views\\doctor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|solutionrelative:healthcareapp.web\\views\\doctor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.web\\views\\doctor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|solutionrelative:healthcareapp.web\\views\\doctor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.web\\views\\patient\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|solutionrelative:healthcareapp.web\\views\\patient\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.web\\views\\patient\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|solutionrelative:healthcareapp.web\\views\\patient\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{415AA0D3-0B77-5B79-2EF8-98CCFCD97744}|HealthcareApp.BLL\\HealthcareApp.BLL.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.bll\\dtos\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{415AA0D3-0B77-5B79-2EF8-98CCFCD97744}|HealthcareApp.BLL\\HealthcareApp.BLL.csproj|solutionrelative:healthcareapp.bll\\dtos\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{415AA0D3-0B77-5B79-2EF8-98CCFCD97744}|HealthcareApp.BLL\\HealthcareApp.BLL.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.bll\\services\\implementation\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{415AA0D3-0B77-5B79-2EF8-98CCFCD97744}|HealthcareApp.BLL\\HealthcareApp.BLL.csproj|solutionrelative:healthcareapp.bll\\services\\implementation\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.web\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFE4B46-82A8-3AB7-5655-E849422EB71E}|HealthcareApp.Web\\HealthcareApp.Web.csproj|solutionrelative:healthcareapp.web\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{415AA0D3-0B77-5B79-2EF8-98CCFCD97744}|HealthcareApp.BLL\\HealthcareApp.BLL.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.bll\\dtos\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{415AA0D3-0B77-5B79-2EF8-98CCFCD97744}|HealthcareApp.BLL\\HealthcareApp.BLL.csproj|solutionrelative:healthcareapp.bll\\dtos\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{415AA0D3-0B77-5B79-2EF8-98CCFCD97744}|HealthcareApp.BLL\\HealthcareApp.BLL.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.bll\\dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{415AA0D3-0B77-5B79-2EF8-98CCFCD97744}|HealthcareApp.BLL\\HealthcareApp.BLL.csproj|solutionrelative:healthcareapp.bll\\dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3D3850-CE60-5712-8DE4-F707F4960204}|HealthcareApp.Entities\\HealthcareApp.Entities.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.entities\\models\\appointmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3D3850-CE60-5712-8DE4-F707F4960204}|HealthcareApp.Entities\\HealthcareApp.Entities.csproj|solutionrelative:healthcareapp.entities\\models\\appointmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3D3850-CE60-5712-8DE4-F707F4960204}|HealthcareApp.Entities\\HealthcareApp.Entities.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.entities\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3D3850-CE60-5712-8DE4-F707F4960204}|HealthcareApp.Entities\\HealthcareApp.Entities.csproj|solutionrelative:healthcareapp.entities\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3643CD-1647-70C5-C8F2-DAB6F0D8EDD6}|HealthcareApp.DAL\\HealthcareApp.DAL.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.dal\\repositories\\interfaces\\iappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B3643CD-1647-70C5-C8F2-DAB6F0D8EDD6}|HealthcareApp.DAL\\HealthcareApp.DAL.csproj|solutionrelative:healthcareapp.dal\\repositories\\interfaces\\iappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3643CD-1647-70C5-C8F2-DAB6F0D8EDD6}|HealthcareApp.DAL\\HealthcareApp.DAL.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.dal\\repositories\\implementations\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B3643CD-1647-70C5-C8F2-DAB6F0D8EDD6}|HealthcareApp.DAL\\HealthcareApp.DAL.csproj|solutionrelative:healthcareapp.dal\\repositories\\implementations\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{415AA0D3-0B77-5B79-2EF8-98CCFCD97744}|HealthcareApp.BLL\\HealthcareApp.BLL.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.bll\\services\\interfaces\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{415AA0D3-0B77-5B79-2EF8-98CCFCD97744}|HealthcareApp.BLL\\HealthcareApp.BLL.csproj|solutionrelative:healthcareapp.bll\\services\\interfaces\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3D3850-CE60-5712-8DE4-F707F4960204}|HealthcareApp.Entities\\HealthcareApp.Entities.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.entities\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3D3850-CE60-5712-8DE4-F707F4960204}|HealthcareApp.Entities\\HealthcareApp.Entities.csproj|solutionrelative:healthcareapp.entities\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3643CD-1647-70C5-C8F2-DAB6F0D8EDD6}|HealthcareApp.DAL\\HealthcareApp.DAL.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.dal\\repositories\\interfaces\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B3643CD-1647-70C5-C8F2-DAB6F0D8EDD6}|HealthcareApp.DAL\\HealthcareApp.DAL.csproj|solutionrelative:healthcareapp.dal\\repositories\\interfaces\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3643CD-1647-70C5-C8F2-DAB6F0D8EDD6}|HealthcareApp.DAL\\HealthcareApp.DAL.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.dal\\repositories\\implementations\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B3643CD-1647-70C5-C8F2-DAB6F0D8EDD6}|HealthcareApp.DAL\\HealthcareApp.DAL.csproj|solutionrelative:healthcareapp.dal\\repositories\\implementations\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{415AA0D3-0B77-5B79-2EF8-98CCFCD97744}|HealthcareApp.BLL\\HealthcareApp.BLL.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.bll\\services\\implementation\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{415AA0D3-0B77-5B79-2EF8-98CCFCD97744}|HealthcareApp.BLL\\HealthcareApp.BLL.csproj|solutionrelative:healthcareapp.bll\\services\\implementation\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{415AA0D3-0B77-5B79-2EF8-98CCFCD97744}|HealthcareApp.BLL\\HealthcareApp.BLL.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.bll\\services\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{415AA0D3-0B77-5B79-2EF8-98CCFCD97744}|HealthcareApp.BLL\\HealthcareApp.BLL.csproj|solutionrelative:healthcareapp.bll\\services\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3643CD-1647-70C5-C8F2-DAB6F0D8EDD6}|HealthcareApp.DAL\\HealthcareApp.DAL.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.dal\\repositories\\implementations\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B3643CD-1647-70C5-C8F2-DAB6F0D8EDD6}|HealthcareApp.DAL\\HealthcareApp.DAL.csproj|solutionrelative:healthcareapp.dal\\repositories\\implementations\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3643CD-1647-70C5-C8F2-DAB6F0D8EDD6}|HealthcareApp.DAL\\HealthcareApp.DAL.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.dal\\repositories\\interfaces\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B3643CD-1647-70C5-C8F2-DAB6F0D8EDD6}|HealthcareApp.DAL\\HealthcareApp.DAL.csproj|solutionrelative:healthcareapp.dal\\repositories\\interfaces\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{415AA0D3-0B77-5B79-2EF8-98CCFCD97744}|HealthcareApp.BLL\\HealthcareApp.BLL.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.bll\\services\\interfaces\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{415AA0D3-0B77-5B79-2EF8-98CCFCD97744}|HealthcareApp.BLL\\HealthcareApp.BLL.csproj|solutionrelative:healthcareapp.bll\\services\\interfaces\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3D3850-CE60-5712-8DE4-F707F4960204}|HealthcareApp.Entities\\HealthcareApp.Entities.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.entities\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3D3850-CE60-5712-8DE4-F707F4960204}|HealthcareApp.Entities\\HealthcareApp.Entities.csproj|solutionrelative:healthcareapp.entities\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3643CD-1647-70C5-C8F2-DAB6F0D8EDD6}|HealthcareApp.DAL\\HealthcareApp.DAL.csproj|c:\\users\\hi\\desktop\\mini_project_2\\batch1_mini_project_2\\healthcareapp\\healthcareapp.dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B3643CD-1647-70C5-C8F2-DAB6F0D8EDD6}|HealthcareApp.DAL\\HealthcareApp.DAL.csproj|solutionrelative:healthcareapp.dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20260412193047_IntialDbCreate.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.DAL\\Migrations\\20260412193047_IntialDbCreate.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.DAL\\Migrations\\20260412193047_IntialDbCreate.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.DAL\\Migrations\\20260412193047_IntialDbCreate.cs",
+              "RelativeToolTip": "HealthcareApp.DAL\\Migrations\\20260412193047_IntialDbCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T19:30:47.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "HealthcareApp.Web\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\appsettings.Development.json",
+              "RelativeToolTip": "HealthcareApp.Web\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-12T19:16:17.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.Web\\Controllers\\AppointmentController.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "HealthcareApp.Web\\Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAIwNEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T20:33:16.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "HealthcareApp.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\appsettings.json",
+              "RelativeToolTip": "HealthcareApp.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-10T19:14:06.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20260412192819_Add.cs",
+              "DocumentMoniker": "D:\\UpGrad\\Batch1_.Net Angular_KavyaSriPalli_Healthcare_Appointment_and_Patient_Management_System_2\\HealthcareApp\\HealthcareApp.DAL\\Migrations\\20260412192819_Add.cs",
+              "ToolTip": "D:\\UpGrad\\Batch1_.Net Angular_KavyaSriPalli_Healthcare_Appointment_and_Patient_Management_System_2\\HealthcareApp\\HealthcareApp.DAL\\Migrations\\20260412192819_Add.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T19:28:19.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Appointment\\Create.cshtml",
+              "RelativeDocumentMoniker": "HealthcareApp.Web\\Views\\Appointment\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Appointment\\Create.cshtml",
+              "RelativeToolTip": "HealthcareApp.Web\\Views\\Appointment\\Create.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACoAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T00:02:49.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.Web\\Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "HealthcareApp.Web\\Controllers\\PatientController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAUwF8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T20:32:08.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Appointment\\Index.cshtml",
+              "RelativeDocumentMoniker": "HealthcareApp.Web\\Views\\Appointment\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Appointment\\Index.cshtml",
+              "RelativeToolTip": "HealthcareApp.Web\\Views\\Appointment\\Index.cshtml",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAUwO8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T00:13:17.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HealthcareApp.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HealthcareApp.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAwwIcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T20:56:00.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Program.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Program.cs",
+              "RelativeToolTip": "HealthcareApp.Web\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwC4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:14:32.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HealthcareApp.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAowEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T20:38:53.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "HealthcareApp.Web\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "HealthcareApp.Web\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAADwAAAAAAAAAAAAiwF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-11T20:25:17.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Patient\\Index.cshtml",
+              "RelativeDocumentMoniker": "HealthcareApp.Web\\Views\\Patient\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Patient\\Index.cshtml",
+              "RelativeToolTip": "HealthcareApp.Web\\Views\\Patient\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T22:23:58.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "HealthcareApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "HealthcareApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAwwHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T22:59:43.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.BLL\\Services\\Implementation\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.BLL\\Services\\Implementation\\AppointmentService.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.BLL\\Services\\Implementation\\AppointmentService.cs",
+              "RelativeToolTip": "HealthcareApp.BLL\\Services\\Implementation\\AppointmentService.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAQwKAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:38:56.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Appointment\\Edit.cshtml",
+              "RelativeDocumentMoniker": "HealthcareApp.Web\\Views\\Appointment\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Appointment\\Edit.cshtml",
+              "RelativeToolTip": "HealthcareApp.Web\\Views\\Appointment\\Edit.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAcwG4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T01:38:19.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Doctor\\Edit.cshtml",
+              "RelativeDocumentMoniker": "HealthcareApp.Web\\Views\\Doctor\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Doctor\\Edit.cshtml",
+              "RelativeToolTip": "HealthcareApp.Web\\Views\\Doctor\\Edit.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T23:47:24.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Doctor\\Create.cshtml",
+              "RelativeDocumentMoniker": "HealthcareApp.Web\\Views\\Doctor\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Doctor\\Create.cshtml",
+              "RelativeToolTip": "HealthcareApp.Web\\Views\\Doctor\\Create.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAcwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T23:46:36.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Doctor\\Index.cshtml",
+              "RelativeDocumentMoniker": "HealthcareApp.Web\\Views\\Doctor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Doctor\\Index.cshtml",
+              "RelativeToolTip": "HealthcareApp.Web\\Views\\Doctor\\Index.cshtml",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwGUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T23:45:02.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Patient\\Edit.cshtml",
+              "RelativeDocumentMoniker": "HealthcareApp.Web\\Views\\Patient\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Patient\\Edit.cshtml",
+              "RelativeToolTip": "HealthcareApp.Web\\Views\\Patient\\Edit.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAcwEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T23:20:27.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Patient\\Create.cshtml",
+              "RelativeDocumentMoniker": "HealthcareApp.Web\\Views\\Patient\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Views\\Patient\\Create.cshtml",
+              "RelativeToolTip": "HealthcareApp.Web\\Views\\Patient\\Create.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAcwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T22:25:11.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PatientDTO.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.BLL\\DTOs\\PatientDTO.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.BLL\\DTOs\\PatientDTO.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.BLL\\DTOs\\PatientDTO.cs",
+              "RelativeToolTip": "HealthcareApp.BLL\\DTOs\\PatientDTO.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:32:20.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.BLL\\Services\\Implementation\\DoctorService.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.BLL\\Services\\Implementation\\DoctorService.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.BLL\\Services\\Implementation\\DoctorService.cs",
+              "RelativeToolTip": "HealthcareApp.BLL\\Services\\Implementation\\DoctorService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwEwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:37:41.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.Web\\Controllers\\DoctorController.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "HealthcareApp.Web\\Controllers\\DoctorController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAYwGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T20:32:53.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DoctorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.BLL\\DTOs\\DoctorDTO.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.BLL\\DTOs\\DoctorDTO.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.BLL\\DTOs\\DoctorDTO.cs",
+              "RelativeToolTip": "HealthcareApp.BLL\\DTOs\\DoctorDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:36:02.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AppointmentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.BLL\\DTOs\\AppointmentDTO.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.BLL\\DTOs\\AppointmentDTO.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.BLL\\DTOs\\AppointmentDTO.cs",
+              "RelativeToolTip": "HealthcareApp.BLL\\DTOs\\AppointmentDTO.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:38:10.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AppointmentStatus.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Entities\\Models\\AppointmentStatus.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.Entities\\Models\\AppointmentStatus.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Entities\\Models\\AppointmentStatus.cs",
+              "RelativeToolTip": "HealthcareApp.Entities\\Models\\AppointmentStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T18:59:13.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Entities\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.Entities\\Models\\Appointment.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Entities\\Models\\Appointment.cs",
+              "RelativeToolTip": "HealthcareApp.Entities\\Models\\Appointment.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:01:27.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IAppointmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.DAL\\Repositories\\Interfaces\\IAppointmentRepository.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.DAL\\Repositories\\Interfaces\\IAppointmentRepository.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.DAL\\Repositories\\Interfaces\\IAppointmentRepository.cs",
+              "RelativeToolTip": "HealthcareApp.DAL\\Repositories\\Interfaces\\IAppointmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:43:05.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AppointmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.DAL\\Repositories\\Implementations\\AppointmentRepository.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.DAL\\Repositories\\Implementations\\AppointmentRepository.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.DAL\\Repositories\\Implementations\\AppointmentRepository.cs",
+              "RelativeToolTip": "HealthcareApp.DAL\\Repositories\\Implementations\\AppointmentRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAUwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:43:27.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IAppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.BLL\\Services\\Interfaces\\IAppointmentService.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.BLL\\Services\\Interfaces\\IAppointmentService.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.BLL\\Services\\Interfaces\\IAppointmentService.cs",
+              "RelativeToolTip": "HealthcareApp.BLL\\Services\\Interfaces\\IAppointmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:38:35.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Entities\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.Entities\\Models\\Doctor.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Entities\\Models\\Doctor.cs",
+              "RelativeToolTip": "HealthcareApp.Entities\\Models\\Doctor.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:00:41.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IPatientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.DAL\\Repositories\\Interfaces\\IPatientRepository.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.DAL\\Repositories\\Interfaces\\IPatientRepository.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.DAL\\Repositories\\Interfaces\\IPatientRepository.cs",
+              "RelativeToolTip": "HealthcareApp.DAL\\Repositories\\Interfaces\\IPatientRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:25:19.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PatientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.DAL\\Repositories\\Implementations\\PatientRepository.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.DAL\\Repositories\\Implementations\\PatientRepository.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.DAL\\Repositories\\Implementations\\PatientRepository.cs",
+              "RelativeToolTip": "HealthcareApp.DAL\\Repositories\\Implementations\\PatientRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:25:47.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.BLL\\Services\\Implementation\\PatientService.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.BLL\\Services\\Implementation\\PatientService.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.BLL\\Services\\Implementation\\PatientService.cs",
+              "RelativeToolTip": "HealthcareApp.BLL\\Services\\Implementation\\PatientService.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAwwHsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:33:54.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IPatientService.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.BLL\\Services\\Interfaces\\IPatientService.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.BLL\\Services\\Interfaces\\IPatientService.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.BLL\\Services\\Interfaces\\IPatientService.cs",
+              "RelativeToolTip": "HealthcareApp.BLL\\Services\\Interfaces\\IPatientService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwA4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:33:10.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.DAL\\Repositories\\Implementations\\DoctorRepository.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.DAL\\Repositories\\Implementations\\DoctorRepository.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.DAL\\Repositories\\Implementations\\DoctorRepository.cs",
+              "RelativeToolTip": "HealthcareApp.DAL\\Repositories\\Implementations\\DoctorRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:42:38.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IDoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.DAL\\Repositories\\Interfaces\\IDoctorRepository.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.DAL\\Repositories\\Interfaces\\IDoctorRepository.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.DAL\\Repositories\\Interfaces\\IDoctorRepository.cs",
+              "RelativeToolTip": "HealthcareApp.DAL\\Repositories\\Interfaces\\IDoctorRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:42:16.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IDoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.BLL\\Services\\Interfaces\\IDoctorService.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.BLL\\Services\\Interfaces\\IDoctorService.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.BLL\\Services\\Interfaces\\IDoctorService.cs",
+              "RelativeToolTip": "HealthcareApp.BLL\\Services\\Interfaces\\IDoctorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:36:47.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Entities\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.Entities\\Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Entities\\Models\\Patient.cs",
+              "RelativeToolTip": "HealthcareApp.Entities\\Models\\Patient.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA8wBMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T18:59:45.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.DAL\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "HealthcareApp.DAL\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.DAL\\AppDbContext.cs",
+              "RelativeToolTip": "HealthcareApp.DAL\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:13:21.523Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

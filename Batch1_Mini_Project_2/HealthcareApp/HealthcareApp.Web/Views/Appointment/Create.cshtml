@@ -1,0 +1,88 @@
+﻿@model HealthcareApp.BLL.DTOs.AppointmentDTO
+
+@{
+    ViewData["Title"] = "Create Appointment";
+}
+
+<div class="container mt-4">
+
+    <div class="card shadow-sm p-4">
+        <h3>Create Appointment</h3>
+
+        <form asp-action="Create" method="post">
+
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <div class="row">
+
+                <div class="col-md-6 mb-3">
+                    <label>Patient</label>
+                    <select asp-for="PatientId" asp-items="ViewBag.Patients" class="form-control">
+                        <option value="0">-- Select --</option>
+                    </select>
+                    <span asp-validation-for="PatientId" class="text-danger"></span>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label>Doctor</label>
+                    <select asp-for="DoctorId" asp-items="ViewBag.Doctors" class="form-control">
+                        <option value="0">-- Select --</option>
+                    </select>
+                    <span asp-validation-for="DoctorId" class="text-danger"></span>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label>Date</label>
+                    <input asp-for="Date" type="date" class="form-control" />
+                    <span asp-validation-for="Date" class="text-danger"></span>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label>Time Slot</label>
+                    <select asp-for="TimeSlot" class="form-control" id="timeDropdown">
+                        <option value="">-- Select Time --</option>
+                    </select>
+                    <span asp-validation-for="TimeSlot" class="text-danger"></span>
+                </div>
+
+            </div>
+
+            <button class="btn btn-success">
+                <i class="bi bi-check-circle"></i> Save
+            </button>
+
+        </form>
+    </div>
+
+</div>
+
+<script>
+    document.getElementById("DoctorId").addEventListener("change", loadSlots);
+    document.getElementById("Date").addEventListener("change", loadSlots);
+
+    function loadSlots() {
+        let doctorId = document.getElementById("DoctorId").value;
+        let date = document.getElementById("Date").value;
+
+        if (!doctorId || doctorId == "0" || !date) return;
+
+        fetch(`/Appointment/GetAvailableSlots?doctorId=${doctorId}&date=${date}`)
+            .then(res => res.json())
+            .then(data => {
+                let dropdown = document.getElementById("timeDropdown");
+                dropdown.innerHTML = '<option value="">-- Select Time --</option>';
+
+                    data.forEach(slot => {
+                        if (slot.isBooked) {
+                            dropdown.innerHTML += `<option value="${slot.time}" disabled>${slot.time} (Booked)</option>`;
+                        } else {
+                            dropdown.innerHTML += `<option value="${slot.time}">${slot.time}</option>`;
+                        }
+                    });
+            });
+    }
+</script>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
