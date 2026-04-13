@@ -86,7 +86,6 @@ HealthcareApp.sln
 <img width="1920" height="1080" alt="Screenshot (220)" src="https://github.com/user-attachments/assets/ff474250-465f-4cf9-a32c-9c93a6138e8c" />
 
 
-<img width="1920" height="1080" alt="Screenshot (216)" src="https://github.com/user-attachments/assets/09a93fb8-d635-4475-86b1-cf57dadf0d31" />
 <img width="1920" height="1080" alt="Screenshot (221)" src="https://github.com/user-attachments/assets/010b5821-a4db-4634-9cad-560575883fc0" />
 
 
@@ -141,8 +140,7 @@ HealthcareApp.sln
 <img width="1920" height="1080" alt="Screenshot (223)" src="https://github.com/user-attachments/assets/d4cb44ec-c086-4364-b117-28db31cdb82b" />
 
 
-<img width="1920" height="1080" alt="Screenshot<img width="1920" height="1080" alt="Screenshot (217)" src="https://github.com/user-attachments/assets/2f6770e9-d595-4c30-9308-4c62bd755574" />
- (224)" src="https://github.com/user-attachments/assets/d01454ec-f801-4d05-916e-43443966881d" />
+<img width="1920" height="1080" alt="Screenshot (224)" src="https://github.com/user-attachments/assets/d01454ec-f801-4d05-916e-43443966881d" />
 
 ---
 
