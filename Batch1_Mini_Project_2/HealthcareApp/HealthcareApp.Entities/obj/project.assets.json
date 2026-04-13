@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UpGrad\\Batch1_.Net Angular_KavyaSriPalli_Healthcare_Appointment_and_Patient_Management_System_1\\HealthcareApp\\HealthcareApp.Entities\\HealthcareApp.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Entities\\HealthcareApp.Entities.csproj",
       "projectName": "HealthcareApp.Entities",
-      "projectPath": "D:\\UpGrad\\Batch1_.Net Angular_KavyaSriPalli_Healthcare_Appointment_and_Patient_Management_System_1\\HealthcareApp\\HealthcareApp.Entities\\HealthcareApp.Entities.csproj",
+      "projectPath": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Entities\\HealthcareApp.Entities.csproj",
       "packagesPath": "C:\\Users\\hi\\.nuget\\packages\\",
-      "outputPath": "D:\\UpGrad\\Batch1_.Net Angular_KavyaSriPalli_Healthcare_Appointment_and_Patient_Management_System_1\\HealthcareApp\\HealthcareApp.Entities\\obj\\",
+      "outputPath": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -6188,11 +6188,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UpGrad\\Batch1_.Net Angular_KavyaSriPalli_Healthcare_Appointment_and_Patient_Management_System_1\\HealthcareApp\\HealthcareApp.Web\\HealthcareApp.Web.csproj",
+      "projectUniqueName": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\HealthcareApp.Web.csproj",
       "projectName": "HealthcareApp.Web",
-      "projectPath": "D:\\UpGrad\\Batch1_.Net Angular_KavyaSriPalli_Healthcare_Appointment_and_Patient_Management_System_1\\HealthcareApp\\HealthcareApp.Web\\HealthcareApp.Web.csproj",
+      "projectPath": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\HealthcareApp.Web.csproj",
       "packagesPath": "C:\\Users\\hi\\.nuget\\packages\\",
-      "outputPath": "D:\\UpGrad\\Batch1_.Net Angular_KavyaSriPalli_Healthcare_Appointment_and_Patient_Management_System_1\\HealthcareApp\\HealthcareApp.Web\\obj\\",
+      "outputPath": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6213,14 +6213,14 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\UpGrad\\Batch1_.Net Angular_KavyaSriPalli_Healthcare_Appointment_and_Patient_Management_System_1\\HealthcareApp\\HealthcareApp.BLL\\HealthcareApp.BLL.csproj": {
-              "projectPath": "D:\\UpGrad\\Batch1_.Net Angular_KavyaSriPalli_Healthcare_Appointment_and_Patient_Management_System_1\\HealthcareApp\\HealthcareApp.BLL\\HealthcareApp.BLL.csproj"
+            "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.BLL\\HealthcareApp.BLL.csproj": {
+              "projectPath": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.BLL\\HealthcareApp.BLL.csproj"
             },
-            "D:\\UpGrad\\Batch1_.Net Angular_KavyaSriPalli_Healthcare_Appointment_and_Patient_Management_System_1\\HealthcareApp\\HealthcareApp.DAL\\HealthcareApp.DAL.csproj": {
-              "projectPath": "D:\\UpGrad\\Batch1_.Net Angular_KavyaSriPalli_Healthcare_Appointment_and_Patient_Management_System_1\\HealthcareApp\\HealthcareApp.DAL\\HealthcareApp.DAL.csproj"
+            "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.DAL\\HealthcareApp.DAL.csproj": {
+              "projectPath": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.DAL\\HealthcareApp.DAL.csproj"
             },
-            "D:\\UpGrad\\Batch1_.Net Angular_KavyaSriPalli_Healthcare_Appointment_and_Patient_Management_System_1\\HealthcareApp\\HealthcareApp.Entities\\HealthcareApp.Entities.csproj": {
-              "projectPath": "D:\\UpGrad\\Batch1_.Net Angular_KavyaSriPalli_Healthcare_Appointment_and_Patient_Management_System_1\\HealthcareApp\\HealthcareApp.Entities\\HealthcareApp.Entities.csproj"
+            "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Entities\\HealthcareApp.Entities.csproj": {
+              "projectPath": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.Entities\\HealthcareApp.Entities.csproj"
             }
           }
         }

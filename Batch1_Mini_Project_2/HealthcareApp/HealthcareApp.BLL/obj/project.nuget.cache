@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gipjwb6zQ8k=",
+  "dgSpecHash": "Tz2bLeB6Ilg=",
   "success": true,
-  "projectFilePath": "D:\\UpGrad\\Batch1_.Net Angular_KavyaSriPalli_Healthcare_Appointment_and_Patient_Management_System_1\\HealthcareApp\\HealthcareApp.BLL\\HealthcareApp.BLL.csproj",
+  "projectFilePath": "C:\\Users\\hi\\Desktop\\Mini_Project_2\\Batch1_Mini_Project_2\\HealthcareApp\\HealthcareApp.BLL\\HealthcareApp.BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hi\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\hi\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
